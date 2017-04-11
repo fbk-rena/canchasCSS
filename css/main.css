@@ -1,0 +1,15 @@
+header {
+	font-family: "Brush Script MT", cursive;
+	font-size: 49px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 49px;
+	text-align: center;
+	color: white;
+	text-shadow: 3px 2px #F781F3;
+	background: linear-gradient(to bottom right, #F781F3, #58D3F7);
+}
+#botones{
+	align-items: center;
+}

@@ -1,0 +1,59 @@
+#base{
+    width: 850px; 
+    height: 500px; 
+    background: #04B404;
+    position: relative;
+}
+.centerLine{
+	position: absolute;
+    left: 50%;
+    border-left: 2px solid #FFFFFF;
+    transform: translate(-50%);
+}
+
+#porteriaDer{
+	width: 100px; 
+    height: 300px; 
+    border: 3px solid #FFFFFF;
+    position: absolute; right: 170px; bottom: 200px ;
+
+}
+#porteriaIzq{
+	width: 100px; 
+    height: 300px; 
+    border: 3px solid #FFFFFF;
+    position: absolute; left: 0px; bottom: 200px 
+
+}
+#centro{
+	width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%  3px solid #FFFFFF;
+    border: 3px solid #FFFFFF;
+    position: absolute; left: 350px; bottom: 250px ;
+    
+
+}
+#semiIzq{
+	 width: 100px; 
+     height: 50px; 
+     border: 2px solid #555; 
+     background: #5cb85c;
+     -moz-border-radius: 100px 100px 0 0;
+     -webkit-border-radius: 100px 100px 0 0;
+     border-radius: 100px 100px 0 0;
+    position: absolute; left: 290px; bottom: 0px ;
+
+}
+#semiDer{
+	width: 50px; 
+    height: 100px; 
+    border: 2px solid #555; 
+    background: #5cb85c;
+    -moz-border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
+    border-radius: 0 100px 100px 0;
+    position: absolute; right: 200px; bottom: 200px ;
+}
